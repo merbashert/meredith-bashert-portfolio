@@ -7,8 +7,13 @@
 }
 
 .body {
-    min-height: 720px;
+    min-height: 710px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
+
 .navlink {
     margin: 0px 65px;
     text-transform: uppercase;
@@ -25,7 +30,7 @@
 
 .navlink:hover {
     text-decoration: none;
-    color: #A8A8A8;
+    color: black;
 }
 
 .topBottomBordersOut {
@@ -68,13 +73,13 @@
 
 .navbar-brand h3 {
     font-size: 40px;
-    margin-bottom: 0px;
+    margin-bottom: 2px;
     margin-left: -2px;
 }
 
 .navbar-brand h5 {
     font-size: 16px;
-    margin-bottom: 1px;
+    margin: 2px;
 }
 
 .navbar-brand a {
@@ -102,13 +107,17 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    opacity: 0;
+    animation: opacity 1s forwards;
+    animation-delay: .3s;
 }
 
 .about-me {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    opacity: 0;
+    animation: opacity 1s forwards;
 }
 
 .about-me img {
@@ -132,7 +141,7 @@
 
 .download-button {
     color: black;
-    padding: 4px;
+    padding: 2px 4px;
     border-radius: 5px;
     font-family: 'Open Sans', sans-serif;
     border: 1px solid black;
@@ -149,6 +158,8 @@
     align-items: center;
     padding-left: 10px;
     margin: 80px;
+    opacity: 0;
+    animation: opacity 1s forwards;
 }
 
 
@@ -157,7 +168,6 @@ input {
 }
 
 .resume-category {
-    background-color: white;
     text-align: center;
 }
 
@@ -166,11 +176,14 @@ input {
 }
 
 .category-label {
-    background-color: white;
+    background-color: rgb(211,211,211,.2);
     padding: 3px;
+    margin-bottom: 15px;
     font-size: 40px;
     font-weight: normal;
     animation: bold 1s;
+    border-radius: 5px;
+    border: 3px dotted grey;
 }
 
 .footer {
@@ -203,10 +216,13 @@ input {
 .sitename-container {
     display: flex;
     justify-content: center;
+    opacity: 0;
+    animation: opacity 1s forwards;
+    animation-delay: .3s;
 }
 
 .sitename-container img {
-    width: 95%;
+    width: 80%;
     box-shadow: 3px 3px 20px rgb(0,0,0,.2);
     margin: 20px 0px;
 }
@@ -221,13 +237,13 @@ input {
     background-color: white;
     box-shadow: 3px 3px 6px lightgrey;
 }
-
+/*
 #download {
     opacity: 0;
     animation-name: opacity;
     animation-duration: .5s;
     animation-fill-mode: forwards;
-    animation-delay: .5s;
+    animation-delay: .3s;
 }
 
 #visit {
@@ -235,7 +251,7 @@ input {
     animation-name: opacity;
     animation-duration: .5s;
     animation-fill-mode: forwards;
-    animation-delay: 1s;
+    animation-delay: .6s;
 }
 
 #email {
@@ -243,8 +259,8 @@ input {
     animation-name: opacity;
     animation-duration: .5s;
     animation-fill-mode: forwards;
-    animation-delay: 1.5s;
-}
+    animation-delay: .8s;
+} */
 
 #email a {
     color: black;

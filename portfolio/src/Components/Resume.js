@@ -1,14 +1,11 @@
 import React from 'react'
 
 import pdf from '../Assets/Resumes/Meredith_Bashert_Programmer.pdf'
-import json from '../Assets/Resumes/Meredith_Bashert_Programmer_JSON.json'
-
+// import json from '../Assets/Resumes/Meredith_Bashert_Programmer_JSON.json'
 
 const Resume = props => {
-
     return (
         <React.Fragment>
-
             <div className='resume-page'>
                 <div className='resume-category' id='download'>
                     <h3 className='category-label' id='download-label'>Download Meredith</h3>
