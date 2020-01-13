@@ -12,7 +12,7 @@ import Image from 'react-bootstrap/Image';
 const Projects = props => {
 
     return (
-        <React.Fragment>
+
         <div className='project-container'>
             <div className='project'>
                 <h3>My Crafty S*!%</h3>
@@ -90,9 +90,10 @@ const Projects = props => {
                     </div>
                 </div>
             </div>
+
         </div>
 
-        </React.Fragment>
+
     )
 }
 export default Projects
