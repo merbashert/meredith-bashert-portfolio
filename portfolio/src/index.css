@@ -1,0 +1,259 @@
+* {
+    font-family: 'Dosis', sans-serif;
+}
+
+#root {
+    background-color: white;
+}
+
+.navlink {
+    margin: 0px 65px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    margin: 5px 30px;
+    color: black;
+    font-size: 20px;
+    padding: 15px 10px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+
+.navlink:hover {
+    text-decoration: none;
+    color: #A8A8A8;
+}
+
+.topBottomBordersOut {
+    margin-right: 20px;
+}
+
+.topBottomBordersOut a:before, .topBottomBordersOut a:after
+{
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 3px;
+    background: black;
+    content: "";
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.topBottomBordersOut a:before
+{
+    top: 0px;
+    transform: translateY(10px);
+}
+
+.topBottomBordersOut a:after
+{
+    bottom: 0px;
+    transform: translateY(-10px);
+}
+
+.topBottomBordersOut a:hover:before, .topBottomBordersOut a:hover:after
+{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+
+
+
+
+
+
+.navbar-brand {
+    background-color: white;
+}
+
+.navbar-brand h3 {
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-left: -2px;
+}
+
+.navbar-brand h5 {
+    font-size: 16px;
+    margin-bottom: 1px;
+}
+
+.navbar-brand a {
+    color: black;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.project {
+    width: 350px;
+    margin: 15px;
+}
+
+.project img {
+    width: 100%;
+    box-shadow: 3px 3px 6px lightgrey;
+    margin: 4px 0px;
+}
+
+#technologies {
+    font-style: italic;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 150px;
+}
+
+.about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me img {
+    width: 400px;
+    margin: 20px;
+}
+
+.bio {
+    width: 40%;
+    margin: 20px;
+}
+
+.contact-page {
+    margin: 0px 30px;
+    width: 50%;
+}
+
+.contact-page h2, .contact-page h1 {
+    margin: 30px 0px;
+}
+
+.download-button {
+    color: black;
+    padding: 4px;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid black;
+}
+
+.download-button:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.resume-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+
+input {
+    width: 400px;
+}
+
+.resume-category {
+    background-color: white;
+    text-align: center;
+}
+
+#visit a {
+    color: black;
+}
+
+.category-label {
+    background-color: white;
+    padding: 3px;
+    font-size: 40px;
+    font-weight: normal;
+    animation: bold 1s;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 30px;
+}
+
+.social {
+    font-size: 50px;
+}
+
+.social a {
+    color: white;
+    margin: 0px 10px;
+}
+
+.social a:hover {
+    background-color: white;
+    color: black;
+}
+
+.sitename-container {
+    display: flex;
+    justify-content: center;
+}
+
+.sitename-container img {
+    width: 95%;
+    box-shadow: 3px 3px 20px rgb(0,0,0,.2);
+    margin: 20px 0px;
+}
+
+.project a {
+    font-size: 18px;
+    color: black;
+    text-decoration: underline;
+}
+
+.nav-bar {
+    background-color: white;
+    box-shadow: 3px 3px 6px lightgrey;
+}
+
+#download {
+    opacity: 0;
+    animation-name: opacity;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+    animation-delay: .5s;
+}
+
+#visit {
+    opacity: 0;
+    animation-name: opacity;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+#email {
+    opacity: 0;
+    animation-name: opacity;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+    animation-delay: 1.5s;
+}
+
+#email a {
+    color: black;
+    text-decoration: underline;
+}
+
+@keyframes opacity {
+    to {
+        opacity: 1;
+    }
+}
