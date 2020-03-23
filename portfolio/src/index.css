@@ -220,6 +220,7 @@ input {
     opacity: 0;
     animation: opacity 1s forwards;
     animation-delay: .3s;
+    align-items: flex-start;
 }
 
 .sitename-container img {
