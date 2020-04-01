@@ -16,11 +16,11 @@ const Resume = props => {
                 </div>
                 <div className='resume-category' id='visit'>
                     <h3 className='category-label'>Visit Meredith</h3>
-                    <h2><a href="https://docs.google.com/document/d/1fxNG0481nBDrjlxCZx66_Uzm3Myq9irxapHwfcO2Xgg/edit?usp=sharing" target="_blank" >
+                    <h2><a href="https://docs.google.com/document/d/1fxNG0481nBDrjlxCZx66_Uzm3Myq9irxapHwfcO2Xgg/edit?usp=sharing" target="_blank" rel="noopener noreferrer" >
                         Google Doc Resume
                     </a></h2>
-                    <h2><a href = 'https://www.linkedin.com/in/meredith-bashert/' target='_blank'><ion-icon name="logo-linkedin"></ion-icon>LinkedIn</a></h2>
-                    <h2><a href = 'https://github.com/merbashert' target='_blank'><ion-icon name="logo-github"></ion-icon>Github</a></h2>
+                    <h2><a href = 'https://www.linkedin.com/in/meredith-bashert/' target='_blank' rel="noopener noreferrer" ><ion-icon name="logo-linkedin"></ion-icon>LinkedIn</a></h2>
+                    <h2><a href = 'https://github.com/merbashert' target='_blank' rel="noopener noreferrer" ><ion-icon name="logo-github"></ion-icon>Github</a></h2>
                 </div>
                 <br/>
                 <div className='resume-category' id='email'>

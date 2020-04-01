@@ -15,7 +15,7 @@ const Projects = props => {
         <div className='project-container'>
             <div className='project'>
                 <h3>My Crafty S*!%</h3>
-                <a href='http://mycraftybleep.herokuapp.com' target='_blank'>http://mycraftybleep.herokuapp.com</a>
+                <a href='http://mycraftybleep.herokuapp.com' target='_blank' rel="noopener noreferrer" >http://mycraftybleep.herokuapp.com</a>
                 <div id='crafty'>
                     <Image src={crafty} fluid/>
                     <div className='text>'>
@@ -28,7 +28,7 @@ const Projects = props => {
             </div>
             <div className='project'>
                 <h3>Minifigure Collector</h3>
-                <a href='http://minifigure-collector.herokuapp.com' target='_blank'>http://minifigure-collector.herokuapp.com</a>
+                <a href='http://minifigure-collector.herokuapp.com' target='_blank' rel="noopener noreferrer" >http://minifigure-collector.herokuapp.com</a>
                 <div id='minifigure'>
                     <Image src={minifigure} fluid/>
                     <div className='text>'>
@@ -40,7 +40,7 @@ const Projects = props => {
             </div>
             <div className='project'>
                 <h3>BrewDog Browser</h3>
-                <a href='https://merbashert.github.io/BrewDog_Browser/' target='_blank'>https://merbashert.github.io/BrewDog_Browser</a>
+                <a href='https://merbashert.github.io/BrewDog_Browser/' target='_blank' rel="noopener noreferrer" >https://merbashert.github.io/BrewDog_Browser</a>
                 <div id='brewdog'>
                     <Image src={brewdog} fluid/>
                     <div className='text>'>
@@ -52,7 +52,7 @@ const Projects = props => {
             </div>
             <div className='project'>
                 <h3>Baseball Logger</h3>
-                <a href='https://baseball-logger.netlify.com/' target='_blank'>https://baseball-logger.netlify.com/</a>
+                <a href='https://baseball-logger.netlify.com/' target='_blank' rel="noopener noreferrer" >https://baseball-logger.netlify.com/</a>
                 <div id='baseball'>
                     <Image src={baseball} fluid/>
                     <div className='text>'>
@@ -65,7 +65,7 @@ const Projects = props => {
         </div>
             <div className='project'>
                 <h3>Wanderlist</h3>
-                <a href='https://dream-destination-trackers.herokuapp.com/' target='_blank'>https://dream-destination-trackers.herokuapp.com</a>
+                <a href='https://dream-destination-trackers.herokuapp.com/' target='_blank' rel="noopener noreferrer" >https://dream-destination-trackers.herokuapp.com</a>
                 <div id='wanderlist'>
                     <Image src={wanderlist} fluid/>
                     <div className='text>'>
@@ -78,7 +78,7 @@ const Projects = props => {
             </div>
             <div className='project'>
                 <h3>Date Night</h3>
-                <a href='https://itsdatenight.herokuapp.com/' target='_blank'>https://itsdatenight.herokuapp.com</a>
+                <a href='https://itsdatenight.herokuapp.com/' target='_blank' rel="noopener noreferrer" >https://itsdatenight.herokuapp.com</a>
                 <div id='date'>
                     <Image src={date} fluid/>
                     <div className='text>'>
