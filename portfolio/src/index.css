@@ -214,6 +214,14 @@ input {
     color: black;
 }
 
+@media (min-width: 375px) {
+    .social {
+        font-size: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
 .sitename-container {
     display: flex;
     justify-content: center;
