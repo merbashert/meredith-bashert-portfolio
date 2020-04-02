@@ -215,6 +215,12 @@ input {
 }
 
 @media (max-width: 600px) {
+
+    .body {
+        align-items: flex-start;
+        margin-top: 15px;
+    }
+
     .social {
         font-size: 30px;
         display: flex;
@@ -224,6 +230,11 @@ input {
     .download-button {
         padding: 1px 2px;
         font-size: 20px;
+    }
+
+    .resume-page {
+        margin: 20px;
+        justify-content: flex-start;
     }
 
     .resume-page h3 {
