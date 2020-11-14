@@ -289,27 +289,27 @@ input {
 }
 /*
 #download {
-    opacity: 0;
-    animation-name: opacity;
-    animation-duration: .5s;
-    animation-fill-mode: forwards;
-    animation-delay: .3s;
+opacity: 0;
+animation-name: opacity;
+animation-duration: .5s;
+animation-fill-mode: forwards;
+animation-delay: .3s;
 }
 
 #visit {
-    opacity: 0;
-    animation-name: opacity;
-    animation-duration: .5s;
-    animation-fill-mode: forwards;
-    animation-delay: .6s;
+opacity: 0;
+animation-name: opacity;
+animation-duration: .5s;
+animation-fill-mode: forwards;
+animation-delay: .6s;
 }
 
 #email {
-    opacity: 0;
-    animation-name: opacity;
-    animation-duration: .5s;
-    animation-fill-mode: forwards;
-    animation-delay: .8s;
+opacity: 0;
+animation-name: opacity;
+animation-duration: .5s;
+animation-fill-mode: forwards;
+animation-delay: .8s;
 } */
 
 #email a {
@@ -324,14 +324,15 @@ input {
 }
 
 
-.thumbnail {
+.slide {
     width: 600px;
 }
 
 .carousels {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-around;
     flex-wrap: wrap;
+    margin-top: -250px;
 }
 
 div.modal-body {
@@ -344,9 +345,14 @@ ol.carousel-indicators {
 
 div.modal-dialog {
     min-height: calc(100vh - 60px);
- display: flex;
- flex-direction: column;
- justify-content: center;
- overflow: auto;
- max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: auto;
+    max-width: 600px;
+}
+
+.thumbnail {
+    width: 20%;
+    margin: 10px;
 }

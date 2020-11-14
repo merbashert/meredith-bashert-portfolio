@@ -1,17 +1,18 @@
-import React, { Component } from 'react';
-import '../index.css'
+import React from 'react';
+import './Modal.css';
 
-class Modal extends Component {
 
-    render() {
-        return (
-                <div>
-                    {this.props.children}
-                </div>
-        )
-    }
-}
+const Modal = (props) => {
+  const { closeModal } = props;
 
+  return (
+    <div className="overlay">
+      <div className="content">
+        {props.children}
+      </div>
+    </div>
+  );
+};
 
 
 export default Modal;
