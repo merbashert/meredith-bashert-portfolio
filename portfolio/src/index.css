@@ -325,7 +325,7 @@ input {
 
 
 .thumbnail {
-    width: 400px;
+    width: 600px;
 }
 
 .carousels {
@@ -340,4 +340,13 @@ div.modal-body {
 
 ol.carousel-indicators {
     margin: 0px;
+}
+
+div.modal-dialog {
+    min-height: calc(100vh - 60px);
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ overflow: auto;
+ max-width: 600px;
 }
