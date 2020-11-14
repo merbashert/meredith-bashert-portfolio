@@ -4,6 +4,7 @@ import Home from './Components/Home.js'
 import Projects from './Components/Projects.js'
 import Resume from './Components/Resume.js'
 import About from './Components/About.js'
+import Crafts from './Components/Crafts.js'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from 'react-bootstrap/Navbar';
@@ -32,6 +33,7 @@ const App = props => {
                         <Link to="/projects" className='navlink' onClick={() => setTimeout(() => {setExpanded(false)}, 150)}>Projects</Link>
                         <Link to="/resumes" className='navlink' onClick={() => setTimeout(() => {setExpanded(false)}, 150)}>Resume</Link>
                         <Link to="/about" className='navlink' onClick={() => setTimeout(() => {setExpanded(false)}, 150)}>About Me</Link>
+                        <Link to="/crafts" className='navlink' onClick={() => setTimeout(() => {setExpanded(false)}, 150)}>Crafts</Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
@@ -52,6 +54,10 @@ const App = props => {
 
                     <Route path="/about">
                         <About/>
+                    </Route>
+
+                    <Route path="/crafts">
+                        <Crafts/>
                     </Route>
 
                 </Switch>

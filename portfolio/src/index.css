@@ -322,3 +322,22 @@ input {
         opacity: 1;
     }
 }
+
+
+.thumbnail {
+    width: 400px;
+}
+
+.carousels {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+div.modal-body {
+    padding: 0px;
+}
+
+ol.carousel-indicators {
+    margin: 0px;
+}

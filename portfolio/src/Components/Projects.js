@@ -16,7 +16,7 @@ const Projects = props => {
             <div className='project'>
                 <h3>My Crafty S*!%</h3>
                 <div id='crafty'>
-                        <a href='http://mycraftybleep.herokuapp.com' target='_blank' rel="noopener noreferrer" >http://mycraftybleep.herokuapp.com
+                        <a href='http://mycraftybleep.meredithbashert.com/' target='_blank' rel="noopener noreferrer" >http://mycraftybleep.herokuapp.com
                     <Image src={crafty} fluid/></a>
                     <div className='text>'>
                         <div id='description'>
@@ -42,7 +42,7 @@ const Projects = props => {
             <div className='project'>
                 <h3>BrewDog Browser</h3>
                 <div id='brewdog'>
-                    <a href='https://merbashert.github.io/BrewDog_Browser/' target='_blank' rel="noopener noreferrer" >https://merbashert.github.io/BrewDog_Browser
+                    <a href='http://brewdogbrowser.meredithbashert.com/' target='_blank' rel="noopener noreferrer" >https://merbashert.github.io/BrewDog_Browser
                     <Image src={brewdog} fluid/></a>
                     <div className='text>'>
                         <div id='description'>
@@ -54,7 +54,7 @@ const Projects = props => {
             <div className='project'>
                 <h3>Baseball Logger</h3>
                 <div id='baseball'>
-                        <a href='https://baseball-logger.netlify.com/' target='_blank' rel="noopener noreferrer" >https://baseball-logger.netlify.com/
+                        <a href='http://baseball-logger.meredithbashert.com/' target='_blank' rel="noopener noreferrer" >https://baseball-logger.netlify.com/
                     <Image src={baseball} fluid/></a>
                     <div className='text>'>
                         <div id='description'>
