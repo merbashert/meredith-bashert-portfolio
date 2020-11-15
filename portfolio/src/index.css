@@ -330,9 +330,12 @@ animation-delay: .8s;
 
 .carousels {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
-    margin-top: -250px;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 div.modal-body {

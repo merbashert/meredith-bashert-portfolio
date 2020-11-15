@@ -14,9 +14,15 @@ const CarouselContainer = (props) => {
                         alt={x.project}
                         className="slide"
                         />
-                    <Carousel.Caption>
-                        <p>{x.caption}</p>
-                    </Carousel.Caption>
+                        {
+                            x.caption ?
+                            <Carousel.Caption>
+                                <h4>{x.caption}</h4>
+                            </Carousel.Caption>
+                            :
+                            null
+                        }
+
                 </Carousel.Item>
             })}
         </Carousel>

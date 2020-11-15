@@ -76,7 +76,7 @@ import Thumbnail_Miniatures_Textless from '../Assets/Crafts/Thumbnail_Miniatures
 
 
 
-const menorahsauraus = [{photo: Menorahsauraus_1}, {photo: Menorahsauraus_2}]
+const menorahsauraus = [{photo: Menorahsauraus_1, comment: `It's a Carnivorous Menorahsauraus!`}, {photo: Menorahsauraus_2, comment: `It's a Carnivorous Menorahsauraus!`}]
 
 const window = [
     {photo: Window_Wide, caption: `My office didn't have a window, so I made one!`},
@@ -85,17 +85,17 @@ const window = [
 
 const fabric_store = [
     {photo: Fabric_Store_1, caption: `1:12 Scale Dollhouse Fabric Store`},
-    {photo: Fabric_Store_2, caption: `1:12 Scale Dollhouse Fabric Store`},
-    {photo: Fabric_Store_3, caption: `1:12 Scale Dollhouse Fabric Store`},
-    {photo: Fabric_Store_4, caption: `1:12 Scale Dollhouse Fabric Store`},
-    {photo: Fabric_Store_5, caption: `1:12 Scale Dollhouse Fabric Store`},
-    {photo: Fabric_Store_6, caption: `1:12 Scale Dollhouse Fabric Store`},
-    {photo: Fabric_Store_7, caption: `1:12 Scale Dollhouse Fabric Store`},
-    {photo: Fabric_Store_8, caption: `1:12 Scale Dollhouse Fabric Store`},
-    {photo: Fabric_Store_9, caption: `1:12 Scale Dollhouse Fabric Store`},
-    {photo: Fabric_Store_10, caption: `1:12 Scale Dollhouse Fabric Store`},
-    {photo: Fabric_Store_11, caption: `1:12 Scale Dollhouse Fabric Store`},
-    {photo: Fabric_Store_12, caption: `1:12 Scale Dollhouse Fabric Store`}
+    {photo: Fabric_Store_2, caption: `Everything is handmade except the peg board and the tiny embroidery hoop.`},
+    {photo: Fabric_Store_3, caption: `I'm super proud of the dress form.`},
+    {photo: Fabric_Store_4, caption: `I made tiny plastic sealed pillows!`},
+    {photo: Fabric_Store_5, caption: `An upstairs area for customers to gather and knit together.`},
+    {photo: Fabric_Store_6, caption: `It really spins!`},
+    {photo: Fabric_Store_7, caption: `Notice the teeny tiny straight pins!`},
+    {photo: Fabric_Store_8, caption: `I made the tiny rulers with transparent Shrinky Dinks.`},
+    {photo: Fabric_Store_9, caption: `Tiny balls of yarn`},
+    {photo: Fabric_Store_10, caption: `Tiny knitting magazines... and a Work in Progress!`},
+    {photo: Fabric_Store_11, caption: `I knitted a tiny afghan for the couch.`},
+    {photo: Fabric_Store_12, caption: `Finished quilt hanging on the wall.`}
 ]
 
 const frank = [
@@ -110,11 +110,12 @@ const frank = [
 
 const candy_store = [
     {photo: Candy_Store_1, caption: `1:12 Scale Dollhouse Candy Store`},
-    {photo: Candy_Store_2, caption: `1:12 Scale Dollhouse Candy Store`},
-    {photo: Candy_Store_3, caption: `1:12 Scale Dollhouse Candy Store`},
-    {photo: Candy_Store_4, caption: `1:12 Scale Dollhouse Candy Store`},
-    {photo: Candy_Store_5, caption: `1:12 Scale Dollhouse Candy Store`},
-    {photo: Candy_Store_6, caption: `1:12 Scale Dollhouse Candy Store`},
+    {photo: Candy_Store_2, caption: `Teeny gummies and candy sticks.`},
+    {photo: Candy_Store_3, caption: `Gummy Bear Wall Art`},
+    {photo: Candy_Store_4, caption: `Chocolate, chocolate, chocolate!`},
+    {photo: Candy_Store_6, caption: `Yum.  Fudge.`},
+    {photo: Candy_Store_5, caption: `Everything is handmade except the cash register and tiny glass jars!`},
+
 ]
 
 const tiny_paintings = [
@@ -151,19 +152,23 @@ const mordechai = [
 ]
 
 const projects = [
-    {project:menorahsauraus, thumbnail: Thumbnail_Menorah_Texted},
-    {project:window, thumbnail: Thumbnail_Window_Texted},
     {project:fabric_store, thumbnail:Thumbnail_Fabric_Store_Texted},
     {project:candy_store, thumbnail: Thumbnail_Candy_Store_Texted},
+    {project:window, thumbnail: Thumbnail_Window_Texted},
     {project:tiny_paintings, thumbnail: Thumbnail_Paintings_Texted},
     {project:miniatures, thumbnail:Thumbnail_Miniatures_Texted},
+    {project:menorahsauraus, thumbnail: Thumbnail_Menorah_Texted},
     {project:frank, thumbnail: Thumbnail_Frank_Texted},
-    {project:mordechai, thumbnail: Thumbnail_Mordechai_Texted}]
+    {project:mordechai, thumbnail: Thumbnail_Mordechai_Texted}
+]
 
 const Crafts = () => {
     const [show, setShow] = useState(false)
     const [project, setProject] = useState('')
-    const handleClose= () => setShow(false);
+
+    const handleClose= () => {
+        setShow(false);
+    }
 
     const handleShow = (project) => {
         setProject(project)
@@ -173,7 +178,7 @@ const Crafts = () => {
 
     return (
         <div className='carousels'>
-            <Modal show={show} onHide={handleClose}>
+            <Modal show={show} onHide={handleClose} onExited={e => setProject('')}>
                 <Modal.Body>
                     <Carousel project={project}/>
                 </Modal.Body>
@@ -182,11 +187,9 @@ const Crafts = () => {
             {
                 projects.map((project, i) => {
                     return (
-                        <>
-                        <img src={project.thumbnail}  onClick={e => handleShow(project)} className='thumbnail'/>
-
-
-                        </>
+                        <div className='project' key={i}>
+                            <img src={project.thumbnail}  onClick={e => handleShow(project)} className='thumbnail'/>
+                        </div>
                     )
                 })
             }
