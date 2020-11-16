@@ -359,3 +359,20 @@ div.modal-dialog {
     width: 20%;
     margin: 10px;
 }
+
+span.carousel-control-next-icon, span.carousel-control-prev-icon {
+    width: 20px;
+    height: 62px;
+    opacity: 1;
+    background-color: lightgrey;
+    border-radius: 3px;
+
+}
+
+span.carousel-control-next-icon {
+    margin-left: 60px;
+}
+
+span.carousel-control-prev-icon {
+    margin-right: 60px;
+}

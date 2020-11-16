@@ -5,12 +5,10 @@ import '../index.css'
 
 import Menorahsauraus_1 from '../Assets/Crafts/Menorahsauraus.jpeg'
 import Menorahsauraus_2 from '../Assets/Crafts/Menorahsauraus_lit.jpeg'
-import Thumbnail_Menorah_Texted from '../Assets/Crafts/Thumbnail_Menorah_Texted.jpg'
-import Thumbnail_Menorah_Textless from '../Assets/Crafts/Thumbnail_Menorah_Textless.jpg'
+import Thumbnail_Menorah from '../Assets/Crafts/Thumbnail_Menorah.jpg'
 import Window_Wide from '../Assets/Crafts/Window_Wide.jpg'
 import Window_Close from '../Assets/Crafts/Window_Close.jpg'
-import Thumbnail_Window_Texted from '../Assets/Crafts/Thumbnail_Window_Texted.jpg'
-import Thumbnail_Window_Textless from '../Assets/Crafts/Thumbnail_Window_Textless.jpg'
+import Thumbnail_Window from '../Assets/Crafts/Thumbnail_Window.jpg'
 import Frank_1 from '../Assets/Crafts/Frank_1.jpg'
 import Frank_3 from '../Assets/Crafts/Frank_3.jpg'
 import Frank_4 from '../Assets/Crafts/Frank_4.jpg'
@@ -18,16 +16,14 @@ import Frank_5 from '../Assets/Crafts/Frank_5.jpg'
 import Frank_6 from '../Assets/Crafts/Frank_6.jpg'
 import Frank_7 from '../Assets/Crafts/Frank_7.jpg'
 import Frank_8 from '../Assets/Crafts/Frank_8.jpg'
-import Thumbnail_Frank_Texted from '../Assets/Crafts/Thumbnail_Frank_Texted.jpg'
-import Thumbnail_Frank_Textless from '../Assets/Crafts/Thumbnail_Frank_Textless.jpg'
+import Thumbnail_Frank from '../Assets/Crafts/Thumbnail_Frank.jpg'
 import Candy_Store_1 from '../Assets/Crafts/Candy_Store_1.jpeg'
 import Candy_Store_2 from '../Assets/Crafts/Candy_Store_2.jpeg'
 import Candy_Store_3 from '../Assets/Crafts/Candy_Store_3.jpeg'
 import Candy_Store_4 from '../Assets/Crafts/Candy_Store_4.jpeg'
 import Candy_Store_5 from '../Assets/Crafts/Candy_Store_5.jpeg'
 import Candy_Store_6 from '../Assets/Crafts/Candy_Store_6.jpeg'
-import Thumbnail_Candy_Store_Texted from '../Assets/Crafts/Thumbnail_Candy_Store_Texted.jpg'
-import Thumbnail_Candy_Store_Textless from '../Assets/Crafts/Thumbnail_Candy_Store_Textless.jpg'
+import Thumbnail_Candy_Store from '../Assets/Crafts/Thumbnail_Candy_Store.jpg'
 import Fabric_Store_1 from '../Assets/Crafts/Fabric_Store_1.jpeg'
 import Fabric_Store_2 from '../Assets/Crafts/Fabric_Store_2.jpeg'
 import Fabric_Store_3 from '../Assets/Crafts/Fabric_Store_3.jpeg'
@@ -40,8 +36,7 @@ import Fabric_Store_9 from '../Assets/Crafts/Fabric_Store_9.jpeg'
 import Fabric_Store_10 from '../Assets/Crafts/Fabric_Store_10.jpeg'
 import Fabric_Store_11 from '../Assets/Crafts/Fabric_Store_11.jpeg'
 import Fabric_Store_12 from '../Assets/Crafts/Fabric_Store_12.jpeg'
-import Thumbnail_Fabric_Store_Texted from '../Assets/Crafts/Thumbnail_Fabric_Store_Texted.jpg'
-import Thumbnail_Fabric_Store_Textless from '../Assets/Crafts/Thumbnail_Fabric_Store_Textless.jpg'
+import Thumbnail_Fabric_Store from '../Assets/Crafts/Thumbnail_Fabric_Store.jpg'
 import Awkward_Moment from '../Assets/Crafts/Awkward_Moment.jpg'
 import Chicken_In_Space from '../Assets/Crafts/Chicken_In_Space.jpg'
 import Cow_Dating from '../Assets/Crafts/Cow_Dating.jpeg'
@@ -59,19 +54,16 @@ import Star_Crossed_Lovers from '../Assets/Crafts/Star_Crossed_Lovers.jpeg'
 import The_Flying_Koalas from '../Assets/Crafts/The_Flying_Koalas.jpg'
 import Through_The_Looking_Glass_Quack from '../Assets/Crafts/Through_The_Looking_Glass_Quack.jpg'
 import Octopus from '../Assets/Crafts/Octopus.jpg'
-import Thumbnail_Paintings_Texted from '../Assets/Crafts/Thumbnail_Paintings_Texted.jpg'
-import Thumbnail_Paintings_Textless from '../Assets/Crafts/Thumbnail_Paintings_Textless.jpg'
+import Thumbnail_Paintings from '../Assets/Crafts/Thumbnail_Paintings.jpg'
 import Mordechai_1 from '../Assets/Crafts/Mordechai_1.jpeg'
 import Mordechai_2 from '../Assets/Crafts/Mordechai_2.jpeg'
 import Mordechai_3 from '../Assets/Crafts/Mordechai_3.jpeg'
-import Thumbnail_Mordechai_Texted from '../Assets/Crafts/Thumbnail_Mordechai_Texted.jpg'
-import Thumbnail_Mordechai_Textless from '../Assets/Crafts/Thumbnail_Mordechai_Textless.jpg'
+import Thumbnail_Mordechai from '../Assets/Crafts/Thumbnail_Mordechai.jpg'
 import Mini_Savory from '../Assets/Crafts/Mini_Savory.jpg'
 import Mini_Sweet from '../Assets/Crafts/Mini_Sweet.jpeg'
 import Red_Sweater from '../Assets/Crafts/Red_Sweater.jpg'
 import White_Sweater from '../Assets/Crafts/White_Sweater.jpg'
-import Thumbnail_Miniatures_Texted from '../Assets/Crafts/Thumbnail_Miniatures_Texted.jpg'
-import Thumbnail_Miniatures_Textless from '../Assets/Crafts/Thumbnail_Miniatures_Textless.jpg'
+import Thumbnail_Miniatures from '../Assets/Crafts/Thumbnail_Miniatures.jpg'
 
 
 
@@ -139,10 +131,10 @@ const tiny_paintings = [
 ]
 
 const miniatures = [
-    {photo: Mini_Savory},
-    {photo: Mini_Sweet},
+    {photo: Red_Sweater},
     {photo: White_Sweater},
-    {photo: Red_Sweater}
+    {photo: Mini_Savory},
+    {photo: Mini_Sweet}
 ]
 
 const mordechai = [
@@ -152,14 +144,14 @@ const mordechai = [
 ]
 
 const projects = [
-    {project:fabric_store, thumbnail:Thumbnail_Fabric_Store_Texted},
-    {project:candy_store, thumbnail: Thumbnail_Candy_Store_Texted},
-    {project:window, thumbnail: Thumbnail_Window_Texted},
-    {project:tiny_paintings, thumbnail: Thumbnail_Paintings_Texted},
-    {project:miniatures, thumbnail:Thumbnail_Miniatures_Texted},
-    {project:menorahsauraus, thumbnail: Thumbnail_Menorah_Texted},
-    {project:frank, thumbnail: Thumbnail_Frank_Texted},
-    {project:mordechai, thumbnail: Thumbnail_Mordechai_Texted}
+    {project:fabric_store, thumbnail:Thumbnail_Fabric_Store},
+    {project:candy_store, thumbnail: Thumbnail_Candy_Store},
+    {project:window, thumbnail: Thumbnail_Window},
+    {project:tiny_paintings, thumbnail: Thumbnail_Paintings},
+    {project:miniatures, thumbnail:Thumbnail_Miniatures},
+    {project:menorahsauraus, thumbnail: Thumbnail_Menorah},
+    {project:frank, thumbnail: Thumbnail_Frank},
+    {project:mordechai, thumbnail: Thumbnail_Mordechai}
 ]
 
 const Crafts = () => {
