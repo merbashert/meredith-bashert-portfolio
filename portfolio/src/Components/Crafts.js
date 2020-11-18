@@ -131,8 +131,8 @@ const tiny_paintings = [
 ]
 
 const miniatures = [
-    {photo: Red_Sweater},
     {photo: White_Sweater},
+    {photo: Red_Sweater},
     {photo: Mini_Savory},
     {photo: Mini_Sweet}
 ]
@@ -180,7 +180,7 @@ const Crafts = () => {
                 projects.map((project, i) => {
                     return (
                         <div className='project' key={i}>
-                            <img src={project.thumbnail}  onClick={e => handleShow(project)} className='thumbnail'/>
+                            <img src={project.thumbnail}  onClick={e => handleShow(project)} className='thumbnail' alt={project.project}/>
                         </div>
                     )
                 })
