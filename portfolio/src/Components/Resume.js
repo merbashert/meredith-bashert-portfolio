@@ -1,6 +1,6 @@
 import React from 'react'
 
-import pdf from '../Assets/Resumes/Meredith_Bashert_Programmer.pdf'
+import pdf from '../Assets/Resumes/Meredith_Bashert.pdf'
 // import json from '../Assets/Resumes/Meredith_Bashert_Programmer_JSON.json'
 
 const Resume = props => {

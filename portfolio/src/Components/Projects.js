@@ -5,6 +5,7 @@ import brewdog from '../Assets/Brewdog.png'
 import wanderlist from '../Assets/Wanderlist.png'
 import date from '../Assets/DateNight.png'
 import baseball from '../Assets/Baseball.png'
+import sam from '../Assets/Sam.png'
 
 import Image from 'react-bootstrap/Image';
 
@@ -20,7 +21,7 @@ const Projects = props => {
                     <Image src={crafty} fluid/></a>
                     <div className='text>'>
                         <div id='description'>
-                            Developed an app designed to keep track of my craft supplies, with separate sections for fabric, random craft supplies, and knitting needles.
+                            Developed an app designed to keep track of my craft supplies, with separate sections for fabric, random craft supplies, zippers, and knitting needles.
                         </div>
                         <div id='technologies'>Technologies Used: ReactJS, React Router, React Bootstrap, PHP, SQL, JSX, Postgres</div>
                     </div>
@@ -64,6 +65,19 @@ const Projects = props => {
                 </div>
             </div>
         </div>
+        <div className='project'>
+            <h3>Sam Stone Dance</h3>
+            <div id='samstone'>
+                    <a href='https://www.samstonedance.com/' target='_blank' rel="noopener noreferrer" >https://www.samstonedance.com/
+                <Image src={sam} fluid/></a>
+                <div className='text>'>
+                    <div id='description'>
+                        A personal portfolio for Sam Stone Dance
+                    <div id='technologies'>Technologies used: Wordpress API, React, React Router, Bootstrap, CSS Animation</div>
+                </div>
+            </div>
+        </div>
+    </div>
             <div className='project'>
                 <h3>Wanderlist</h3>
                 <div id='wanderlist'>

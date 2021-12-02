@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.5cacdf5c.chunk.css",
-    "main.js": "/static/js/main.f5a4c80b.chunk.js",
-    "main.js.map": "/static/js/main.f5a4c80b.chunk.js.map",
+    "main.css": "/static/css/main.bc3d80ed.chunk.css",
+    "main.js": "/static/js/main.7063430d.chunk.js",
+    "main.js.map": "/static/js/main.7063430d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7b61e083.js",
     "runtime-main.js.map": "/static/js/runtime-main.7b61e083.js.map",
     "static/css/2.47e06e2e.chunk.css": "/static/css/2.47e06e2e.chunk.css",
-    "static/js/2.a1e92f7f.chunk.js": "/static/js/2.a1e92f7f.chunk.js",
-    "static/js/2.a1e92f7f.chunk.js.map": "/static/js/2.a1e92f7f.chunk.js.map",
+    "static/js/2.f722e8e8.chunk.js": "/static/js/2.f722e8e8.chunk.js",
+    "static/js/2.f722e8e8.chunk.js.map": "/static/js/2.f722e8e8.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.84a191244f6f395186d55ea45e7f1f88.js": "/precache-manifest.84a191244f6f395186d55ea45e7f1f88.js",
+    "precache-manifest.f0130c5f78a057f26024742c27e8d00e.js": "/precache-manifest.f0130c5f78a057f26024742c27e8d00e.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.47e06e2e.chunk.css.map": "/static/css/2.47e06e2e.chunk.css.map",
-    "static/css/main.5cacdf5c.chunk.css.map": "/static/css/main.5cacdf5c.chunk.css.map",
-    "static/js/2.a1e92f7f.chunk.js.LICENSE": "/static/js/2.a1e92f7f.chunk.js.LICENSE",
+    "static/css/main.bc3d80ed.chunk.css.map": "/static/css/main.bc3d80ed.chunk.css.map",
+    "static/js/2.f722e8e8.chunk.js.LICENSE": "/static/js/2.f722e8e8.chunk.js.LICENSE",
     "static/media/Awkward_Moment.jpg": "/static/media/Awkward_Moment.19a29c67.jpg",
     "static/media/Baseball.png": "/static/media/Baseball.c1470fa2.png",
     "static/media/Brewdog.png": "/static/media/Brewdog.6d9f5631.png",
@@ -52,7 +52,7 @@
     "static/media/Keyboard_FULL.jpg": "/static/media/Keyboard_FULL.7bf98f83.jpg",
     "static/media/Menorahsauraus.jpeg": "/static/media/Menorahsauraus.08decc14.jpeg",
     "static/media/Menorahsauraus_lit.jpeg": "/static/media/Menorahsauraus_lit.35f34d4e.jpeg",
-    "static/media/Meredith_Bashert_Programmer.pdf": "/static/media/Meredith_Bashert_Programmer.6cde8ff0.pdf",
+    "static/media/Meredith_Bashert.pdf": "/static/media/Meredith_Bashert.bc1d519e.pdf",
     "static/media/Mini_Savory.jpg": "/static/media/Mini_Savory.880f5227.jpg",
     "static/media/Mini_Sweet.jpeg": "/static/media/Mini_Sweet.6aba9f57.jpeg",
     "static/media/Minifigure.png": "/static/media/Minifigure.829a191d.png",
@@ -66,6 +66,7 @@
     "static/media/Pizza.jpg": "/static/media/Pizza.0798817d.jpg",
     "static/media/Raccoon_On_Sled.jpg": "/static/media/Raccoon_On_Sled.ccd44214.jpg",
     "static/media/Red_Sweater.jpg": "/static/media/Red_Sweater.ed4408df.jpg",
+    "static/media/Sam.png": "/static/media/Sam.8dd096c7.png",
     "static/media/Shark_Factory.jpeg": "/static/media/Shark_Factory.e2a6fd80.jpeg",
     "static/media/Skunk_Under_The_Sea.jpg": "/static/media/Skunk_Under_The_Sea.206c4a37.jpg",
     "static/media/Star_Crossed_Lovers.jpeg": "/static/media/Star_Crossed_Lovers.13316b66.jpeg",
@@ -88,8 +89,8 @@
   "entrypoints": [
     "static/js/runtime-main.7b61e083.js",
     "static/css/2.47e06e2e.chunk.css",
-    "static/js/2.a1e92f7f.chunk.js",
-    "static/css/main.5cacdf5c.chunk.css",
-    "static/js/main.f5a4c80b.chunk.js"
+    "static/js/2.f722e8e8.chunk.js",
+    "static/css/main.bc3d80ed.chunk.css",
+    "static/js/main.7063430d.chunk.js"
   ]
 }

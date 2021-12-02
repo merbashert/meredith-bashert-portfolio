@@ -110,6 +110,7 @@
     opacity: 0;
     animation: opacity 1s forwards;
     animation-delay: .3s;
+    margin: 0 50px;
 }
 
 .about-me {
