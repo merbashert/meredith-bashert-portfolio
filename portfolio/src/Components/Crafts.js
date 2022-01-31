@@ -124,10 +124,11 @@ const tiny_paintings = [
     {photo: Raccoon_On_Sled, caption:`Raccoon on Sled`},
     {photo: Shark_Factory, caption:`Shark Factory`},
     {photo: Skunk_Under_The_Sea, caption:`Skunk Under the Sea`},
+    {photo: Octopus, caption: `Snack Food Juggler`},
     {photo: Star_Crossed_Lovers, caption:`Star-Crossed Lovers`},
     {photo: The_Flying_Koalas, caption:`The Flying Koalas`},
-    {photo: Through_The_Looking_Glass_Quack, caption:`Through the Looking Glass: Quack`},
-    {photo: Octopus, caption: `Snack Food Juggler`}
+    {photo: Through_The_Looking_Glass_Quack, caption:`Through the Looking Glass: Quack`}
+
 ]
 
 const miniatures = [

@@ -23,7 +23,7 @@ const Projects = props => {
                         <div id='description'>
                             Developed an app designed to keep track of my craft supplies, with separate sections for fabric, random craft supplies, zippers, and knitting needles.
                         </div>
-                        <div id='technologies'>Technologies Used: ReactJS, React Router, React Bootstrap, PHP, SQL, JSX, Postgres</div>
+                        <div id='technologies'>Technologies Used: ReactJS, React Router, React Bootstrap, PHP, SQL, JSX </div>
                     </div>
                 </div>
             </div>
@@ -59,7 +59,7 @@ const Projects = props => {
                     <Image src={baseball} fluid/></a>
                     <div className='text>'>
                         <div id='description'>
-                            An app that has a pitch tracker and a random pitch generator for playing baseball video games.  Built for my husband!  My first complete non-class project!
+                            An app that has a pitch tracker and a random pitch generator for playing baseball video games.  Built for my husband!  My first completely non-class project!
                         <div id='technologies'>Technologies used: Javascript, HTML, CSS, and jQuery</div>
                     </div>
                 </div>
