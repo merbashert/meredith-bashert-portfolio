@@ -45,6 +45,7 @@ import Duck_Rumble from '../Assets/Crafts/Duck_Rumble.jpeg'
 import Far_From_Home_2 from '../Assets/Crafts/Far_From_Home_2.jpeg'
 import Far_From_Home from '../Assets/Crafts/Far_From_Home.jpg'
 import home_Sweet_HOME from '../Assets/Crafts/home_Sweet_HOME.jpeg'
+import Killer_Pig from '../Assets/Crafts/Killer_Pig_From_Outer_Space.jpeg'
 import Opening_Night from '../Assets/Crafts/Opening_Night.jpg'
 import Partners_In_Crime from '../Assets/Crafts/Partners_In_Crime.jpg'
 import Raccoon_On_Sled from '../Assets/Crafts/Raccoon_On_Sled.jpg'
@@ -119,6 +120,7 @@ const tiny_paintings = [
     {photo: Far_From_Home, caption:`Far From Home`},
     {photo: Far_From_Home_2, caption:`Far From Home 2`},
     {photo: home_Sweet_HOME, caption:`home Sweet HOME`},
+    {photo: Killer_Pig, caption:`Killer Pig From Outer Space`},
     {photo: Opening_Night, caption:`Opening Night`},
     {photo: Partners_In_Crime, caption:`Partners in Crime`},
     {photo: Raccoon_On_Sled, caption:`Raccoon on Sled`},

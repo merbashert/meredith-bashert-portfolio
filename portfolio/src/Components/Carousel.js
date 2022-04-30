@@ -12,12 +12,12 @@ const CarouselContainer = (props) => {
                     <img
                         src={x.photo}
                         alt={x.project}
-                        className="slide"
+                        className="slide d-block img-fluid"
                         />
                         {
                             x.caption ?
                             <Carousel.Caption>
-                                <h4>{x.caption}</h4>
+                                <p>{x.caption}</p>
                             </Carousel.Caption>
                             :
                             null
