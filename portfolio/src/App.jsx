@@ -1,10 +1,10 @@
 import React, {useState} from 'react';
 
-import Home from './Components/Home.js'
-import Projects from './Components/Projects.js'
-import Resume from './Components/Resume.js'
-import About from './Components/About.js'
-import Crafts from './Components/Crafts.js'
+import Home from './Components/Home.jsx'
+import Projects from './Components/Projects.jsx'
+import Resume from './Components/Resume.jsx'
+import About from './Components/About.jsx'
+import Crafts from './Components/Crafts.jsx'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from 'react-bootstrap/Navbar';
@@ -65,7 +65,7 @@ const App = props => {
 
             <div className='footer'>
                 <h6>Built with ReactJS<br/>
-                © 2020 Meredith Bashert – All rights reserved
+                © {new Date().getFullYear()} Meredith Bashert – All rights reserved
             </h6>
             <div>
                 <h2 className='social'><a href = 'https://www.linkedin.com/in/meredith-bashert/' target='_blank' rel="noopener noreferrer" ><ion-icon name="logo-linkedin"></ion-icon></a>

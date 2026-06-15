@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Modal from 'react-bootstrap/Modal'
-import Carousel from './Carousel'
+import Carousel from './Carousel.jsx'
 import '../index.css'
 
 import Menorahsauraus_1 from '../Assets/Crafts/Menorahsauraus.jpeg'

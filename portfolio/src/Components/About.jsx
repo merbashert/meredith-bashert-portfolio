@@ -15,7 +15,7 @@ const About = props => {
         <br/><br/>
         More? All right...
         <br/><br/>
-        My name is Meredith Bashert, and I'm a web developer. In my previous life I was an Assistant Editor in reality television, where I worked on content for companies such as MTV, TLC, and the History Channel. I recently graduated from General Assembly's Software Engineering Immersive and I'm looking forward to lots of great career opportunities ahead.
+        My name is Meredith Bashert, and I'm a web developer. In my previous life I was an Assistant Editor in reality television, where I worked on content for companies such as MTV, TLC, and the History Channel. I graduated from General Assembly's Software Engineering Immersive and enjoy building useful, playful things for the web.
         <br/><br/>
         And I still love pizza.
         </div>

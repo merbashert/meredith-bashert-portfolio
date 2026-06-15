@@ -6,7 +6,7 @@ import '../index.css'
 const CarouselContainer = (props) => {
 
     return (
-        <Carousel interval={false} slide={false} wrap={false} keyboard={true}>
+        <Carousel interval={null} slide={false} wrap={false} keyboard={true}>
             {props.project.project.map((x, j) => {
                 return <Carousel.Item key={j}>
                     <img
